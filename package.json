@@ -1,0 +1,10 @@
+{
+  "name": "rate-limiter-root",
+  "version": "1.0.0",
+  "description": "Rate Limiter Engine — MERN Stack",
+  "scripts": {
+    "start:server": "cd server && node src/index.js",
+    "start:client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  }
+}
